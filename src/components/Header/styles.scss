@@ -1,7 +1,8 @@
 .navbar {
     height: var(--header);
     padding: 1rem;
-    background-color: #EFF5F5;
+    background-color: var(--primary);
+    color: #fff;
 
     .nav-right {
         padding: 0;
@@ -12,6 +13,7 @@
             list-style-type: none;
             transition: all .2s ease-in;
             cursor: pointer;
+
             &:hover {
                 text-decoration: underline;
             }

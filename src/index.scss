@@ -9,6 +9,10 @@
 :root {
   --header: 70px;
   --container: calc(100% - var(--header));
+
+  --primary: #337ab7;
+  --text-main: #1D1D1D;
+  --text-secondary: #656565;
 }
 
 html,

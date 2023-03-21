@@ -1,0 +1,23 @@
+.build-btn {
+    background-color: var(--primary);
+    color: #fff;
+
+    &:hover {
+        background-color: var(--primary);
+    }
+}
+
+.gap-container {
+    gap: 1rem;
+    h4 {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 1.14rem;
+    }
+}
+
+h4,
+p {
+    margin: 0;
+}
