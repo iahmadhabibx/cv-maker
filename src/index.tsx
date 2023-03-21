@@ -1,15 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
 import App from './modules/App';
+import { BrowserRouter } from 'react-router-dom';
+import { ToastContainer } from "react-toastify";
 import reportWebVitals from './reportWebVitals';
-import './index.css';
+import { store } from './redux-toolkit/store';
+import './index.scss';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+        <ToastContainer theme="colored" />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
 

@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+:root {
+  --header: 70px;
+  --container: calc(100% - var(--header));
 }
 
 html,
@@ -9,8 +16,13 @@ body {
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 10vh;
+  height: 100vh;
   overflow-x: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#root {
+  height: 100%;
 }
 
 .flex {
@@ -55,4 +67,8 @@ body {
 
 .h-full {
   height: 100%;
+}
+
+.container {
+  height: var(--container);
 }

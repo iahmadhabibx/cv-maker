@@ -1,6 +1,11 @@
+import Header from "../../components/Header";
+
 const Home = () => {
     return(
-        <main></main>
+        <main className="h-full w-full builder">
+            <Header />
+            <aside className="container"></aside>
+        </main>
     )
 };
 export default Home;
