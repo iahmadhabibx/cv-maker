@@ -29,6 +29,32 @@ const Templat1 = () => {
                     </p>
                 </section>
             </header>
+            <aside className="cv-body w-full flex align-start">
+                <section className="left-part">
+                    <section className="sub-section">
+                        <h3 className="sub-heading">About Me</h3>
+                        <p className="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur numquam aliquam, cumque fuga tenetur saepe cum facilis qui maxime necessitatibus dignissimos minima repellat, unde, illo dolor nisi voluptatem temporibus sunt perferendis voluptatum eveniet inventore animi? Ducimus eaque maxime beatae minima sequi ipsam id reiciendis. Iste, maxime nihil? Magni voluptatibus quia sunt animi, perspiciatis sapiente delectus explicabo tempore aut eum eligendi. Facere incidunt atque voluptate nulla, ut odit quasi dicta explicabo odio, corrupti provident sint accusamus doloribus labore quis harum fugit quibusdam fugiat corporis quisquam! Laborum eos labore earum. Non corporis quo reprehenderit? Quibusdam odit eos natus architecto, nobis minus maiores.</p>
+                    </section>
+                </section>
+                <section className="right-part">
+                    <section className="sub-section">
+                        <h3 className="sub-heading">Skills</h3>
+                        <ul className="skills i-flex">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>MS Word</li>
+                            <li>Angular</li>
+                            <li>ReactJS</li>
+                            <li>NodeJS</li>
+                            <li>Bootstrap</li>
+                            <li>SCSS</li>
+                            <li>React Native</li>
+                            <li>Ionic</li>
+                        </ul>
+                    </section>
+                </section>
+            </aside>
         </aside>
     )
 };
